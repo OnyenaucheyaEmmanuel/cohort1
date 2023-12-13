@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/brands.min.css
+
+
+
+"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css
+
+
+
+"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-5" href="#">MY Portofolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-5 px-3 mb-lg-0 navv">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#skill"
+                >My Skills</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">My Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 text px-5 text-white pt-5 banner">
+          <h1 class="display-5 mt-5 pt-5">Uche Emmanuel</h1>
+          <h3 class="display-3" style="font-size: 25px">
+            Im a FullStack Software Engineer
+          </h3>
+          <p>
+            Website Developer | Mobile App Development | UI/UX Design | SEO
+            Optimization
+          </p>
+          <button class="btn btn-primary">Get Started</button>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-3">
+      <h3 class="text-left py-2" id="about">ABOUT ME</h3>
+      <div class="row shadow d-flex one p-5">
+        <div class="col-md-6">
+          <img
+            class="img shadow d-flex"
+            src="data:image/jpeg;base64,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"
+            alt=""
+            width="100%"
+          />
+        </div>
+        <div class="col-md-6">
+          <p id="lorem" class="">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem
+            dolore iste ipsam nostrum earum, aspernatur saepe tenetur delectus
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mt-5 bor shadow d-flex">
+        <h3 class="text-center mt-5" id="skill">My Skills</h3>
+        <div class="col-md-6">
+          <img src="/undraw.png" width="100%" alt="" />
+        </div>
+        <div class="col-md-6">
+          <label for="" class="mt-5"> Website Devolopment</label>
+          <div class="progress">
+            <div
+              class="progress-bar bg-dark"
+              role="progressbar"
+              style="width: 75%"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              75%
+            </div>
+          </div>
+          <label for="" class="mt-2"> Mobile App Devolopment</label>
+          <div class="progress">
+            <div
+              class="progress-bar bg-success"
+              role="progressbar"
+              style="width: 87%"
+              aria-valuenow="87"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              75%
+            </div>
+          </div>
+          <label for="" class="mt-2"> SEO Optimization</label>
+          <div class="progress">
+            <div
+              class="progress-bar bg-danger"
+              role="progressbar"
+              style="width: 25%"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              25%
+            </div>
+          </div>
+          <label for="" class="mt-2"> UI/UX Design</label>
+          <div class="progress">
+            <div
+              class="progress-bar bg-warning"
+              role="progressbar"
+              style="width: 50%"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              50%
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h3 class="pt-5 text-center" id="project">My Project</h3>
+      <div class="row mt-5" id="grid">
+        <div class="col-md-3 px-5 car">
+          <img src="/coding.jpeg" alt="" />
+          <p class="py-2">
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Velit, expedita incidunt eum obcaecati laboriosam
+          </p>
+          <button class="btn btn-primary mb-3">More Info</button>
+        </div>
+        <div class="col-md-3 px-5 car">
+          <img src="/coding.jpeg " alt="" />
+          <p class="py-2">
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Velit, expedita incidunt eum obcaecati laboriosam
+          </p>
+          <button class="btn btn-primary mb-3">More Info</button>
+        </div>
+        <div class="col-md-3 px-5 car">
+          <img src="/coding.jpeg" alt="" />
+          <p class="py-2">
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Velit, expedita incidunt eum obcaecati laboriosam
+          </p>
+          <button class="btn btn-primary mb-3">More Info</button>
+        </div>
+        <div class="col-md-3 px-5 car">
+          <img src="/coding.jpeg" alt="" />
+          <p class="py-2">
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Velit, expedita incidunt eum obcaecati laboriosam
+          </p>
+          <button class="btn btn-primary mb-3">More Info</button>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid p-5 bg-dark">
+      <div class="row">
+        <h3 class="text-white" id="contact">Send Us A Message</h3>
+        <div class="col-md-4">
+          <form action="" class=" ">
+            <input class="form-control" placeholder="Your Name" type="text" />
+            <br />
+            <input class="form-control" placeholder="Your Email" type="text" />
+            <br />
+            <textarea
+              name=""
+              class="form-control"
+              id=""
+              cols="20"
+              rows="5"
+            ></textarea>
+            <button class="btn btn-primary mt-5 px-5">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-8">
+          <div style="width: 100%">
+            <div style="width: 100%">
+              <div style="width: 100%">
+                <iframe
+                  width="100%"
+                  height="250"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                  src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=380,%20Ademola%20ajasa,%20Omole+(Find%20Me)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                  ><a href="https://www.maps.ie/population/"
+                    >Population calculator map</a
+                  ></iframe
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 px-5 text-center">
+        <div class="col-md-12">
+          <span class="text-white mx-5">
+            <i
+              style="font-size: 24px; color: white"
+              class="fab fa-instagram"
+            ></i>
+            Instagram
+          </span>
+          <span class="text-white mx-5">
+            <i
+              style="font-size: 24px; color: white"
+              class="fab fa-instagram"
+            ></i>
+            Instagram
+          </span>
+          <span class="text-white mx-5">
+            <i
+              style="font-size: 24px; color: white"
+              class="fab fa-instagram"
+            ></i>
+            Instagram
+          </span>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
